@@ -13,4 +13,7 @@ public class AnimalPicker {
     else if ((answer.toLowerCase()).equals("cat")){
         System.out.println("CAT ASCII ART HERE");
     }
+    else{
+        System.out.println("ERROR: Invalid Option!");
+    }
 }
